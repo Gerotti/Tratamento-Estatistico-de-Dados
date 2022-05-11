@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+
 x0 = 0
 s0 = 1
 nREP = 10_000
