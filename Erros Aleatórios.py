@@ -1,5 +1,5 @@
-# Experimento sujeito a erros aleatórios de desvio-padrão sA e erro 
-#              mais um erro sistemático residual de desvio-padrão sS
+# Experimento sujeito a erros aleatórios de desvio-padrão sA e erro  mais um erro sistemático residual de desvio-padrão sS
+
 import numpy as np
 import matplotlib.pyplot as plt
 
