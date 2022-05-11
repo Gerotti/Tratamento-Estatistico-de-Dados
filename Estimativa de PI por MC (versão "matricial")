@@ -1,0 +1,9 @@
+import numpy as np
+N = 10000
+#x = np.random.rand(N)
+#y = np.random.rand(N)
+#n = sum( (x**2 + y**2)<=1 )
+n = sum( np.sum(np.random.rand(N,2)**2,axis=1)<=1 )
+
+piMC = 4*(n/N)
+print( 'PI experimental ~', piMC)
