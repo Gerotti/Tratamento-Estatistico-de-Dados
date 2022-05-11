@@ -1,5 +1,5 @@
-# propagacao do efeito da incerteza de a sobre w para w(a,b)=2*(a**2)*b
-#   para a0=10.0  com  sa=0.2    e b0=5.0 com sb=0.2
+# propagacao do efeito da incerteza de a sobre w para w(a,b)=2*(a**2)*b para a0=10.0  com  sa=0.2    e b0=5.0 com sb=0.2
+
 import numpy as np
 N = int(1e4)
 a0 = 10.0
