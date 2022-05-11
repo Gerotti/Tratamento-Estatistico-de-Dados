@@ -1,5 +1,5 @@
-# Sobre as estimativas de desvio-padrão amostral de experimentos sujeitos a erros 
-#  aleatórios e a erros sistemáticos residuais
+# Sobre as estimativas de desvio-padrão amostral de experimentos sujeitos a erros aleatórios e a erros sistemáticos residuais
+
 import numpy as np
 
 def cadaExperimento2(N=25, x0=50.0, sA=2.0, sS=0.5):
