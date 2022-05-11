@@ -1,5 +1,5 @@
-# Incerteza do valor médio de experimentos sujeitos a erros aleatórios 
-#              de desvio-padrão sA e erro sistemático residual de desvio-padrão sS
+# Incerteza do valor médio de experimentos sujeitos a erros aleatórios de desvio-padrão sA e erro sistemático residual de desvio-padrão sS
+
 import numpy as np
 
 def cadaExperimento(N=25, x0=50.0, sA=2.0, sS=0.5):
