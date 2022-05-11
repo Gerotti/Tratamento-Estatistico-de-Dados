@@ -1,0 +1,11 @@
+import numpy as np
+N = int( 1e4 )
+xI = 0
+xF = np.pi
+yMax = 1
+x = xI + (xF-xI)*np.random.rand(N)
+y = yMax * np.random.rand(N)
+n = np.sum( y<=np.sin(x) )
+
+Area = (n/N)*(xF-xI)*yMax
+print( 'Area ~ ', Area)
